@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clase 1 CSS</title>
+</head>
+<body>
+    <!-- se pueden crear estilos dentro de html con la siguiente etiqueta -->
+    <style>
+        /* aqui van los estilos */
+        /* NO ES UNA BUENA PRÁCTICA */
+        /* body {
+            margin: 0;
+            margin-top: 0;
+        }
+
+        header {
+            background-color: aqua;
+            padding: 0;
+            margin-top: 0;
+            display: flex;
+        }
+
+        ul {
+            display: flex;
+            margin-top: 25px;
+        }
+
+        li {
+            list-style: none;
+            padding: 0px 5px
+        } */
+
+        /* header>h2 {
+            color: blue !important;
+        } */
+
+
+    </style>
+
+
+
+    <!-- header>(h2{Games})+(nav>ul>(li{Home})+(li{About Us})) -->
+    <header>
+        <!-- <h2 style="color:rgb(25, 27, 175)">Games</h2> -->
+        <!-- tampoco es una buena práctica -->
+        <!-- <h2 id="logo" style="color:green;">Games en rojo (css), azul (etiq style en h2), verde (style en body)</h2> -->
+        <h2 id="logo" class="titulosAmarillos">Games</h2>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Blog</li>
+                <li>Contact</li>
+                <li>About Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <h3>Jerarquia para estilos en css:</h3>
+    <p>"0. En cualquier lado con la etiqueta !important</p>
+    <p>"1. id tiene mas jerarquia este donde este definido frente a la etiqueta"</p>
+    <p>"2. style="color:green; en la etiqueta h2"</p>
+    <p>"3. en la etiqueta style dentro de body (azul)"</p>
+    <p>"4. en la hoja de estilo (color rojo)"</p>
+    <p>"5. id tiene mas jerarquia que una clase"</p>
+
+    
+</body>
+</html>

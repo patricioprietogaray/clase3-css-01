@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    margin-top: 0;
+}
+
+header {
+    background-color: aqua;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+}
+#logo {
+    color:rgb(255, 255, 255);
+}
+
+.titulosAmarillos {
+    color: yellow;
+}
+
+header h2 {
+    color:red;
+}
+
+header h2 {
+    color:rgb(37, 9, 9);
+}
+
+
+/* toma el segundo color porque primero lo pinta de rojo y
+luego lo pinta de negro, o sea que queda pintado del color
+de más abajo (lee desde arriba hacia abajo) 
+cascading style sheet - hoja de estilo en cascada*/
+
+ul {
+    display: flex;
+    margin-top: 25px;
+}
+
+li {
+    list-style: none;
+    padding: 0px 5px
+}
